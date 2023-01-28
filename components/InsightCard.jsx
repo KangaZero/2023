@@ -8,7 +8,7 @@ import { fadeIn } from '../utils/motion';
 const InsightCard = ({ imgUrl, title, subtitle, index, url, gitUrl }) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 1)}
-    className="flex md:flex-row flex-col mb-8"
+    className="flex md:flex-row p-5 md:p-0 flex-col mb-8"
   >
     <img
       src={imgUrl}
@@ -16,10 +16,10 @@ const InsightCard = ({ imgUrl, title, subtitle, index, url, gitUrl }) => (
       onClick={() => window.open(url, '_blank')}
       className="md:w-[270px] w-full h-[250px] rounded-[10px] object-cover logo"
     />
-    <div className="w-full flex justify-center items-center">
+    <div className="w-full flex justify-center items-center m-8">
       <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px] pr-2">
         <div className="flex flex-row">
-          <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
+          <h4 className="lg:text-[42px] font-bold text-[24px] text-white">
             {title}
           </h4>
 
@@ -33,7 +33,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index, url, gitUrl }) => (
           </span>
 
         </div>
-        <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-slate-500">
+        <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-slate-500 leading-[32.4px]">
           {subtitle}
         </p>
       </div>

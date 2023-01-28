@@ -98,4 +98,9 @@ export const socials = [
     url: '/mail.svg',
     profile: 'mailto:samuelyongw@gmail.com',
   },
+  {
+    name: 'resume',
+    url: '/resume-light.png',
+    profile: 'https://docs.google.com/document/d/1IWM_jF50C-1sEABgcbTQ-xtmE5iRX5se53hjQAWnRzY/edit?usp=sharing',
+  },
 ];
