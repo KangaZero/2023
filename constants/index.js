@@ -4,29 +4,39 @@ export const projectCards = [
     imgUrl: '/petNanny.png',
     title: 'Pet Nanny',
     description: 'Need a babysitter?',
+    url: 'https://pet-nanny-msc.herokuapp.com/',
+    gitUrl: 'https://github.com/KangaZero/pet-nanny',
   },
   {
     id: 'world-2',
     imgUrl: '/purr.png',
     title: 'Purrfection',
     description: 'Sell or buy your pet',
+    url: 'https://purrfection-pet-store.herokuapp.com/',
+    gitUrl: 'https://github.com/KangaZero/purrfection',
   },
   {
     id: 'world-3',
     imgUrl: '/cli.png',
-    title: 'Team Profile Generator',
-    description: 'Generate your team on the terminal',
+    title: 'Work Day Scheduler',
+    description: 'Plan your 9 to 5',
+    url: 'https://kangazero.github.io/kangazero.scheduler.io/',
+    gitUrl: 'https://github.com/KangaZero/kangazero.scheduler.io',
   },
   {
     id: 'world-4',
     imgUrl: '/holiday.png',
     title: 'Holiday Calendar Discoverer',
     description: 'Wiki facts about your fav holidays',
+    url: 'https://kangazero.github.io/holiday-calendar-discoverer/',
+    gitUrl: 'https://github.com/KangaZero/holiday-calendar-discoverer',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/weather.png',
+    title: 'Weather Dashboard',
+    url: 'https://kangazero.github.io/kangazero.weatherdashboard.io/',
+    gitUrl: 'https://github.com/KangaZero/kangazero.weatherdashboard.io',
   },
 ];
 
@@ -39,16 +49,17 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/resume-light.png',
-    title: 'Download my Resume',
+    title: 'Download my Resumé',
     subtitle:
         "Looking to know about my professional background? It's all here",
     url: './resume-2023.pdf',
   },
   {
-    imgUrl: '/download.png',
-    title: 'Download my website',
+    imgUrl: '/mail.svg',
+    title: 'Got mail?',
     subtitle:
-        'Want my portfolio on your desktop as an app? Look no more',
+        'Contact me by sending a greeting on my email',
+    url: 'mailto:samuelyongw@gmail.com',
   },
 ];
 
@@ -59,6 +70,7 @@ export const insights = [
     subtitle:
         'My first ever portfolio website made with vanilla HTML and CSS.',
     url: 'https://kangazero.github.io/kangazero.Personal_Portfolio.io/',
+    gitUrl: 'https://github.com/KangaZero/kangazero.Personal_Portfolio.io',
   },
   {
     imgUrl: '/legacy-portfolio.png',
@@ -66,24 +78,24 @@ export const insights = [
     subtitle:
         'My first professional portfolio made with React and mostly vanilla CSS',
     url: 'https://kangazero.github.io/my-page/',
+    gitUrl: 'https://github.com/KangaZero/my-page',
   },
 ];
 
 export const socials = [
   {
-    name: 'twitter',
-    url: '/twitter.svg',
+    name: 'github',
+    url: '/github.svg',
+    profile: 'https://github.com/KangaZero',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    profile: 'https://www.linkedin.com/in/samuel-yong-4a6874194/',
   },
   {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
+    name: 'gmail',
+    url: '/mail.svg',
+    profile: 'mailto:samuelyongw@gmail.com',
   },
 ];

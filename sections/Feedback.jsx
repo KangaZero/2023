@@ -29,7 +29,7 @@ const Feedback = () => (
 
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="mt-[50px] flex-[0.5] lg:max-w-[400px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="h-[650px] mt-[50px] flex-[0.5] lg:max-w-[400px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-slate-500">
@@ -47,7 +47,7 @@ const Feedback = () => (
 
       <motion.div
         variants={slideIn('up', 'tween', 0.5, 1)}
-        className="relative flex-0.5 flex justify-center items-center"
+        className="h-[650px] relative flex-0.5 flex justify-center items-center"
       >
         <img
           src="/me.png"
@@ -59,7 +59,7 @@ const Feedback = () => (
 
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className="mt-[50px] flex-[0.5] lg:max-w-[400px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="h-[650px] mt-[50px] flex-[0.5] lg:max-w-[400px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
         <div>
           <motion.div
