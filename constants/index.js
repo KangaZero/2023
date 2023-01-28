@@ -52,7 +52,7 @@ export const newFeatures = [
     title: 'Download my Resumé',
     subtitle:
         "Looking to know about my professional background? It's all here",
-    url: './resume-2023.pdf',
+    url: 'https://docs.google.com/document/d/1IWM_jF50C-1sEABgcbTQ-xtmE5iRX5se53hjQAWnRzY/edit?usp=sharing',
   },
   {
     imgUrl: '/mail.svg',

@@ -1,12 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
-
-import styles from '../styles';
-import { startingFeatures } from '../constants';
-import { StartSteps, TitleText, TypingText } from '../components';
-import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
-
 const GetStarted = () => (
   // <section className={`${styles.paddings} relative z-10`}>
   //   <motion.div
@@ -44,9 +37,7 @@ const GetStarted = () => (
   //     </motion.div>
   //   </motion.div>
   // </section>
-  <>
-    <p className='text-center'>WIP</p>
-  </>
+  <p className="text-center">WIP</p>
 );
 
 export default GetStarted;
