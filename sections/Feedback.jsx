@@ -155,8 +155,8 @@ const Feedback = () => (
             <Draggable>
               <div className="min-w-[60px] min-h-[60px]">
                 <img
-                  src="/python.gif"
-                  alt="python"
+                  src="/mysql.svg"
+                  alt="mysql"
                   className="logo w-[65%] h-[65%] object-contain"
                 />
               </div>
@@ -164,8 +164,8 @@ const Feedback = () => (
             <Draggable>
               <div className="min-w-[60px] min-h-[60px]">
                 <img
-                  src="/database.gif"
-                  alt="database"
+                  src="/apollo.svg"
+                  alt="apollo"
                   className="logo w-[65%] h-[65%] object-contain"
                 />
               </div>
