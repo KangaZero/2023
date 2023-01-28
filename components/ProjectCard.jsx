@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-const ProjectCard = ({ id, imgUrl, title, description, index, active, handleClick }) => (
+const ProjectCard = ({ id, imgUrl, title, description, index, active, handleClick, gitUrl, url }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
     className={`relative ${
@@ -29,6 +29,7 @@ const ProjectCard = ({ id, imgUrl, title, description, index, active, handleClic
             className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px] mr-7`}
           >
             <img
+              onClick={() => window.open(gitUrl, '_blank')}
               src="/github.svg"
               alt="github page"
               className="logo w-[60%] h-[60%] object-contain"
@@ -38,6 +39,7 @@ const ProjectCard = ({ id, imgUrl, title, description, index, active, handleClic
             className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
           >
             <img
+              onClick={() => window.open(url, '_blank')}
               src="/npm.svg"
               alt="website page"
               className="logo w-[60%] h-[60%] object-contain"
