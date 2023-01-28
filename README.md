@@ -29,7 +29,7 @@ Samuel Wai Weng Yong - <a href="mailto:samuelyongw@gmail.com"> samuelyongw@gmail
 ## Installation
 
 ```
-git clone [git@github.com:KangaZero/my-page.git](https://github.com/KangaZero/2023)
+git clone git@github.com:KangaZero/2023.git
 npm i
 ```
 Once installation is complete, to start the server on your local machine, and view the page
@@ -37,6 +37,9 @@ Once installation is complete, to start the server on your local machine, and vi
 ```
 npm run dev
 ```
+
+And open it on your localhost server with the base url at '/'!
+
 
 ## Github Stats
 
