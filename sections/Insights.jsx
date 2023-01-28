@@ -18,11 +18,11 @@ const Insights = () => (
     >
       <TypingText title="| Legacy" textStyles="text-center" />
       <TitleText title={<>Look back in time</>} textStyles="text-center" />
-      {/* <div className="mt-[50px] flex flex-col gap-[30px]">
+      <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((item, index) => (
           <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
         ))}
-      </div> */}
+      </div>
     </motion.div>
   </section>
 );
