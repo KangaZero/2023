@@ -21,7 +21,7 @@ This is a porfolio website to showcase my journey as a web developer after takin
 
 ## Issues
 
-I am having trouble making it into a PWA App as the browser cannot find a service-worker. If you know how and are willing to help me out in making my website download feel free to contact me at:
+I am having trouble making it into a PWA App as the browser cannot find a service-worker. If you know how and are willing to help me out in making my website downloadable feel free to contact me at:
 
 Samuel Wai Weng Yong - <a href="mailto:samuelyongw@gmail.com"> samuelyongw@gmail.com </a>
 
