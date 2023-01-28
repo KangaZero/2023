@@ -1,6 +1,8 @@
 import Head from 'next/head';
 
 import '../styles/globals.css';
+import '../styles/dark-mode.css';
+
 
 const MyApp = ({ Component, pageProps }) => (
   <>

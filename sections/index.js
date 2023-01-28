@@ -1,3 +1,4 @@
+import Start from './Start';
 import Hero from './Hero';
 import About from './About';
 import Explore from './Explore';
@@ -8,6 +9,7 @@ import Insights from './Insights';
 import Feedback from './Feedback';
 
 export {
+  Start,
   Hero,
   About,
   Explore,
@@ -16,4 +18,5 @@ export {
   World,
   Insights,
   Feedback,
+
 };

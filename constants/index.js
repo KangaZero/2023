@@ -39,15 +39,15 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Download my Resume',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        "Looking to know about my professional background? It's all here",
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Download my website',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Want my portfolio on your desktop as an app? Look no more',
   },
 ];
 

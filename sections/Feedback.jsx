@@ -110,7 +110,13 @@ const Feedback = () => (
           </h4>
         </div>
         <ul className="mt-[24px] text-center font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] me-text">
-          <li>See my <strong>Github</strong>
+          <li>
+            <motion.p
+              variants={fadeIn('right', 'tween', 0.3, 1)}
+              whileHover="hidden"
+            >
+              Open my <strong>Github</strong>
+            </motion.p>
             <a href="https://github.com/KangaZero" target="_blank" rel="noreferrer">
               <img
                 height={60}
@@ -170,11 +176,22 @@ const Feedback = () => (
             Socials
           </h4>
         </div>
-        <ul className="mt-[24px] text-center font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] me-text">
-          <li>See my <strong>Github</strong>
-
-          </li>
-        </ul>
+        <motion.div
+            variants={fadeIn('up', 'tween', 0.3, 1)}
+            className="flex flex-row justify-center mx-auto w-[200px] h-[200px] bg-transparent"
+          >
+          <div className="mt-[50px]">
+           <a href="https://github.com/KangaZero" target="_blank" rel="noreferrer">
+              <img
+                height={60}
+                width={60}
+                src="/linkedin.svg"
+                alt="linkedin profile"
+                className="logo mx-auto"
+              />
+            </a>
+          </div>
+        </motion.div>
       </motion.div>
 
     </motion.div>
