@@ -44,9 +44,7 @@ const GetStarted = () => (
   //     </motion.div>
   //   </motion.div>
   // </section>
-  <>
-    <p className='text-center'>WIP</p>
-  </>
+  <p className="text-center">WIP</p>
 );
 
 export default GetStarted;

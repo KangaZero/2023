@@ -7,18 +7,25 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "npm run build && next export -o _static"
+    "export": "npm run build && next export -o _static",
+    "server": "npm run build && set NODE_ENV=production && node server.js",
+    "watch": "npm run build && set NODE_ENV=production && nodemon server.js"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^13.1.6",
+    "circular-dependency-plugin": "^5.2.2",
     "eslint-config-next": "13.0.3",
+    "express": "^4.18.2",
     "framer-motion": "^7.6.7",
     "next": "13.0.3",
+    "next-offline": "^5.0.5",
     "next-pwa": "^5.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-draggable": "^4.4.5"
   },
   "devDependencies": {
+    "nodemon": "^2.0.20",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4",
