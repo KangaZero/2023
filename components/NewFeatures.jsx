@@ -5,9 +5,10 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
     <div
       className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}
     >
-      <button 
-      type="button"
-      className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px]`}>
+      <button
+        type="button"
+        className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px]`}
+      >
         <img src={imgUrl} alt="icon" className="w-1/2 h-1/2 object-contain logo" />
       </button>
     </div>

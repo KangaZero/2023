@@ -38,13 +38,13 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/resume-light.png',
     title: 'Download my Resume',
     subtitle:
         "Looking to know about my professional background? It's all here",
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/download.png',
     title: 'Download my website',
     subtitle:
         'Want my portfolio on your desktop as an app? Look no more',

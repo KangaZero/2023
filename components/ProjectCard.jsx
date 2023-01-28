@@ -44,7 +44,7 @@ const ProjectCard = ({ id, imgUrl, title, description, index, active, handleClic
             />
           </div>
         </div>
-        <p className="font-normal text-[16px] leading-[20.16px] text-me">
+        <p className="font-semibold text-[20px] leading-[20.16px] text-white">
           {description}
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-slate-500">
