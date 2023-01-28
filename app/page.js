@@ -3,7 +3,7 @@ import { Start, About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, 
 
 
 const Page = () => (
-  <div className="overflow-hidden">
+  <div className="overflow-visible">
     <Navbar />
     <Hero />
     <div className="relative">

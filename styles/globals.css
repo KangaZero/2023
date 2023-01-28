@@ -23,6 +23,7 @@
     rgb(8, 31, 78) 100%
   );
   filter: blur(125px);
+  opacity: 0.5;
 }
 
 .hero-gradient {
@@ -68,13 +69,13 @@
 .gradient-04 {
   position: absolute;
   width: 304px;
-  height: 100vh;
+  height: 80vh;
   left: 30%;
   top: 10%;
 
-  background: rgba(45, 72, 152, 0.75);
+  background: rgba(19, 33, 75, 0.75);
   filter: blur(200px);
-  transform: rotate(-53.13deg);
+  transform: rotate(-60deg);
 }
 
 .gradient-05 {
@@ -111,6 +112,12 @@
     background: -webkit-linear-gradient(rgb(190, 190, 190), rgb(79, 79, 79));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.me-text2 {
+  background: -webkit-linear-gradient(rgb(235, 242, 245), rgb(169, 163, 163));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .me-link:hover {
@@ -156,6 +163,7 @@
 .logo:hover {
   transform: scale(1.1);
   transition: transform 0.2s ease-out;
+  cursor: pointer;
 }
 
 .logo:active {
