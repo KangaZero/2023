@@ -15,20 +15,14 @@ const Footer = () => (
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-      <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-          Enter the Metaverse
-        </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Enter Metaverse
-          </span>
-        </button>
+      <div className="flex items-center justify-end flex-wrap gap-5">
+
+        <a
+          href="#start" className="font-bold md:text-[64px] text-[44px] me-text me-link"
+        >
+          Time Loop
+        </a>
+
       </div>
 
       <div className="flex flex-col">
@@ -36,10 +30,10 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            METAVERUS
+            KANGAWORKS
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2021 - 2022 Metaversus. All rights reserved.
+            Copyright © {new Date().getFullYear()} KangaWorks
           </p>
 
           <div className="flex gap-4">
@@ -48,7 +42,7 @@ const Footer = () => (
                 key={social.name}
                 src={social.url}
                 alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
+                className="w-[24px] h-[24px] object-contain cursor-pointer logo"
               />
             ))}
           </div>

@@ -26,9 +26,16 @@ const World = () => (
       />
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
-        className="flex justify-center relative w-full h-[550px] -mt-[50px]"
+        className="flex justify-center relative w-full h-[550px] -mt-[50px] md:-mt-[100px] "
       >
         <Orbit />
+      </motion.div>
+      <motion.div
+        variants={fadeIn('left', 'tween', 0.3, 1)}
+        className="flex justify-center relative w-full pt-[50px]"
+      >
+        <TypingText title="| Exciting things are to come |" textStyles="text-center text-[20px] text-slate-700" />
+
       </motion.div>
       {/* <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}

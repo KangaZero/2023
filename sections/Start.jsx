@@ -1,11 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { staggerContainer } from '../utils/motion';
-import { InsightCard, TitleText, TypingText } from '../components';
-
 import styles from '../styles';
-
 
 const Start = () => (
 

@@ -1,10 +1,3 @@
-'use client';
-
-import { motion } from 'framer-motion';
-
-import styles from '../styles';
-import { navVariants } from '../utils/motion';
-
 const Navbar = () => (
   <motion.nav
     variants={navVariants}
@@ -12,9 +5,8 @@ const Navbar = () => (
     whileInView="show"
     viewport={{ once: true }}
     className={`${styles.xPaddings} py-8`}
-    id="start"
   >
-    <div className="absolute w-[200%] inset-0 gradient-01" />
+    <div className="absolute w-[80%] inset-0 gradient-01" />
     <div
       className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
     >

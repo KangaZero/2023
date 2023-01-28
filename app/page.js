@@ -1,9 +1,8 @@
 import { Footer, Navbar } from '../components';
-import { Start, About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
-
+import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
 
 const Page = () => (
-  <div className="overflow-hidden">
+  <div className="overflow-visible">
     <Navbar />
     <Hero />
     <div className="relative">

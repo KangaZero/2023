@@ -3,25 +3,25 @@ export const projectCards = [
     id: 'world-1',
     imgUrl: '/petNanny.png',
     title: 'Pet Nanny',
-    description: 'Need a babysitter?'
+    description: 'Need a babysitter?',
   },
   {
     id: 'world-2',
     imgUrl: '/purr.png',
     title: 'Purrfection',
-    description: 'Sell or buy your pet'
+    description: 'Sell or buy your pet',
   },
   {
     id: 'world-3',
     imgUrl: '/cli.png',
     title: 'Team Profile Generator',
-    description: 'Generate your team on the terminal'
+    description: 'Generate your team on the terminal',
   },
   {
     id: 'world-4',
     imgUrl: '/holiday.png',
     title: 'Holiday Calendar Discoverer',
-    description: 'Wiki facts about your fav holidays'
+    description: 'Wiki facts about your fav holidays',
   },
   {
     id: 'world-5',
@@ -42,6 +42,7 @@ export const newFeatures = [
     title: 'Download my Resume',
     subtitle:
         "Looking to know about my professional background? It's all here",
+    url: './resume-2023.pdf',
   },
   {
     imgUrl: '/download.png',
@@ -53,22 +54,18 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/first-portfolio.png',
+    title: 'My First Portfolio',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'My first ever portfolio website made with vanilla HTML and CSS.',
+    url: 'https://kangazero.github.io/kangazero.Personal_Portfolio.io/',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/legacy-portfolio.png',
+    title: 'Legacy Portfolio',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'My first professional portfolio made with React and mostly vanilla CSS',
+    url: 'https://kangazero.github.io/my-page/',
   },
 ];
 
