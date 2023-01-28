@@ -12,10 +12,11 @@ const InsightCard = ({ imgUrl, title, subtitle, index, url }) => (
     <img
       src={imgUrl}
       alt={title}
-      className="md:w-[270px] w-full h-[250px] rounded-[10px] object-cover"
+      onClick={() => document.location.replace(url)}
+      className="md:w-[270px] w-full h-[250px] rounded-[10px] object-cover logo"
     />
-    <div className="w-full flex justify-end items-center">
-      <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+    <div className="w-full flex justify-center items-center">
+      <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px] pr-2">
         <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
           {title}
         </h4>
@@ -25,10 +26,10 @@ const InsightCard = ({ imgUrl, title, subtitle, index, url }) => (
       </div>
 
       <div
-        className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white"
+        className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent shadow-md shadow-blue-300 border-[1px] border-white"
       >
         <img
-          onClick={() => document.location.replace(url)}
+          onClick={() => window.open(url, '_blank')}
           src="/enter.png"
           alt="enter"
           className="w-[60%] h-[60%] object-contain logo"

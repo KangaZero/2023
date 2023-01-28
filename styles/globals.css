@@ -92,19 +92,21 @@
   height: 316px;
   left: 0px;
   top: 0px;
-
   background: #8d39a3;
   filter: blur(175px);
 }
 
 .footer-gradient {
   position: absolute;
-  width: 500px;
+  width: 1000px;
   height: 100px;
-  left: 37%;
+  left: 10%;
   bottom: 0;
-
-  background: #65c4fa;
+  background: linear-gradient(
+    180deg,
+    rgba(58, 45, 208, 0.75) 0%,
+    rgba(68, 167, 167, 0.489) 100%
+  );
   filter: blur(150px);
 }
 
