@@ -8,7 +8,7 @@ This is a porfolio website to showcase my journey as a web developer after takin
 
 ## Demo
 
-- Live Site URL - **[Portfolio]([https://kangazero.github.io/my-page](https://kanga-works2023.vercel.app/))**
+- Live Site URL - **[Portfolio](https://kanga-works2023.vercel.app/)**
 
 
 ## Techologies
