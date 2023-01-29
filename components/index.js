@@ -1,5 +1,6 @@
 import Navbar from './Navbar';
 import { TypingText, TitleText } from './CustomTexts';
+import DropdownMenu  from './DropdownMenu';
 import ProjectCard from './ProjectCard';
 import StartSteps from './StartSteps';
 import Orbit from './Orbit';
@@ -11,6 +12,7 @@ export {
   Navbar,
   TitleText,
   TypingText,
+  DropdownMenu,
   StartSteps,
   NewFeatures,
   ProjectCard,

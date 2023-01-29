@@ -8,7 +8,7 @@ import { NewFeatures, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn } from '../utils/motion';
 
 const WhatsNew = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`} id="contact">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

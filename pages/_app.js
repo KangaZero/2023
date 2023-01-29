@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import '../styles/globals.css';
 import '../styles/dark-mode.css';
+import '../styles/dropdown-menu.css';
 import '../styles/orbit.css';
 
 const MyApp = ({ Component, pageProps }) => (
