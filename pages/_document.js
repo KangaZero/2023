@@ -9,6 +9,8 @@ class MyDocument extends Document {
           <link rel="apple-touch-icon" href="/icon.png" />
           <meta name="apple-mobile-web-app-status-bar" content="#90cdf4" />
           <meta name="theme-color" content="#fff" />
+          <link rel="preconnect" href="https://stijndv.com" />
+          <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
         </Head>
         <body>
           <Main />
