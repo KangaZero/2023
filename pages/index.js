@@ -15,11 +15,11 @@ const Home = () => (
       <div className="gradient-04 z-0" />
       <WhatsNew />
     </div>
-    <World />
+    <World id="future" />
     <div className="relative">
-      <Insights />
+      <Insights id="legacy" />
       <div className="gradient-04 z-0" />
-      <Feedback />
+      <Feedback id="about" />
     </div>
     <Footer />
   </div>

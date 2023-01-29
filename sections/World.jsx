@@ -7,13 +7,14 @@ import { TitleText, TypingText, Orbit } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const World = () => (
-  <section className={`${styles.paddings} relative z-10`} id="future">
+  <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
+      id="future"
     >
 
       <TypingText title="| What's on the horizon?" textStyles="text-center" />

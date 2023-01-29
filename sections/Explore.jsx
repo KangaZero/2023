@@ -12,13 +12,14 @@ const Explore = () => {
   const [active, setActive] = useState('world-2');
 
   return (
-    <section className={`${styles.paddings}`} id="works">
+    <section className={`${styles.paddings}`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
+        id="works"
       >
         <TypingText title="My Works |" textStyles="text-center" />
         <TitleText

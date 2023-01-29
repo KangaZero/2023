@@ -5,10 +5,9 @@ import React, { useState } from 'react';
 
 import styles from '../styles';
 import { navVariants, fadeIn } from '../utils/motion';
-import DropdownMenu from './DropdownMenu';
 
 const Navbar = () => {
-  const [showDropdown, setShowDropdown] = useState(true);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   return (
     <motion.nav
