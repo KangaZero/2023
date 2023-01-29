@@ -40,7 +40,7 @@ const Footer = () => (
             {socials.map((social) => (
               <a href={social.profile} rel="noreferrer" target="_blank">
                 <img
-                  key={social.name}
+                  key={social.id}
                   src={social.url}
                   alt={social.name}
                   className="w-[24px] h-[24px] object-contain cursor-pointer logo"

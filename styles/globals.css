@@ -10,6 +10,12 @@
   scroll-behavior: smooth;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 
 .gradient-01 {
   background-image: linear-gradient(

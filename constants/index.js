@@ -84,21 +84,25 @@ export const insights = [
 
 export const socials = [
   {
+    id: 1,
     name: 'github',
     url: '/github.svg',
     profile: 'https://github.com/KangaZero',
   },
   {
+    id: 2,
     name: 'linkedin',
     url: '/linkedin.svg',
     profile: 'https://www.linkedin.com/in/samuel-yong-4a6874194/',
   },
   {
+    id: 3,
     name: 'gmail',
     url: '/mail.svg',
     profile: 'mailto:samuelyongw@gmail.com',
   },
   {
+    id: 4,
     name: 'resume',
     url: '/resume-light.png',
     profile: 'https://docs.google.com/document/d/1IWM_jF50C-1sEABgcbTQ-xtmE5iRX5se53hjQAWnRzY/edit?usp=sharing',
