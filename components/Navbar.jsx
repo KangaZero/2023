@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import React, { useState } from 'react';
 
 import styles from '../styles';
@@ -8,7 +8,6 @@ import { navVariants, fadeIn } from '../utils/motion';
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);
-
   return (
     <motion.nav
       variants={navVariants}
@@ -47,26 +46,29 @@ const Navbar = () => {
           />
         </div>
       </div>
-      { showDropdown && (
-        <motion.div
-          variants={fadeIn('left', 'spring', 0.3, 0.75)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.25 }}
-          className="dropdown-menu z-20 flex flex-col items-end relative px-2 pt-7 text-[24px] text-slate-300 font-extrabold"
-        >
-          {/* Explore */}
-          <a href="#works">Works</a>
-          {/* WhatsNew */}
-          <a href="#contact">Contact</a>
-          {/* World */}
-          <a href="#future">Future</a>
-          {/* Insights */}
-          <a href="#legacy">Legacy</a>
-          {/* Feedback */}
-          <a href="#about">About</a>
-        </motion.div>
-      )}
+      <AnimatePresence>
+        { showDropdown && (
+          <motion.div
+            variants={fadeIn('left', 'spring', 0.3, 0.75)}
+            initial="hidden"
+            whileInView="show"
+            exit="hidden"
+            viewport={{ once: false, amount: 0.25 }}
+            className="dropdown-menu z-20 flex flex-col items-end relative px-2 pt-7 text-[24px] text-slate-300 font-extrabold"
+          >
+            {/* Explore */}
+            <a href="#works">Works</a>
+            {/* WhatsNew */}
+            <a href="#contact">Contact</a>
+            {/* World */}
+            <a href="#future">Future</a>
+            {/* Insights */}
+            <a href="#legacy">Legacy</a>
+            {/* Feedback */}
+            <a href="#about">About</a>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </motion.nav>
   );
 };
