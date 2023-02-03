@@ -9,7 +9,7 @@ import { staggerContainer } from '../utils/motion';
 import { ProjectCard, TitleText, TypingText } from '../components';
 
 const Explore = () => {
-  const [active, setActive] = useState('world-2');
+  const [active, setActive] = useState('world-1');
 
   return (
     <section className={`${styles.paddings}`}>

@@ -51,7 +51,7 @@ export const newFeatures = [
     imgUrl: '/resume-light.png',
     title: 'Download my Resumé',
     subtitle:
-        "Looking to know about my professional background? It's all here",
+        "Looking to know about my professional background?",
     url: 'https://docs.google.com/document/d/1IWM_jF50C-1sEABgcbTQ-xtmE5iRX5se53hjQAWnRzY/edit?usp=sharing',
   },
   {
@@ -68,7 +68,7 @@ export const insights = [
     imgUrl: '/first-portfolio.png',
     title: 'My First Portfolio',
     subtitle:
-        'My first ever portfolio website made with vanilla HTML and CSS.',
+        'My first ever portfolio website made with vanilla HTML and CSS',
     url: 'https://kangazero.github.io/kangazero.Personal_Portfolio.io/',
     gitUrl: 'https://github.com/KangaZero/kangazero.Personal_Portfolio.io',
   },
@@ -84,25 +84,21 @@ export const insights = [
 
 export const socials = [
   {
-    id: 1,
     name: 'github',
     url: '/github.svg',
     profile: 'https://github.com/KangaZero',
   },
   {
-    id: 2,
     name: 'linkedin',
     url: '/linkedin.svg',
     profile: 'https://www.linkedin.com/in/samuel-yong-4a6874194/',
   },
   {
-    id: 3,
     name: 'gmail',
     url: '/mail.svg',
     profile: 'mailto:samuelyongw@gmail.com',
   },
   {
-    id: 4,
     name: 'resume',
     url: '/resume-light.png',
     profile: 'https://docs.google.com/document/d/1IWM_jF50C-1sEABgcbTQ-xtmE5iRX5se53hjQAWnRzY/edit?usp=sharing',
