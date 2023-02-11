@@ -21,6 +21,12 @@ const Hero = () => (
       <div id="subtitle" className="sm:text-sm">
         <span>2023 </span><span> Project </span><span>Showcase</span>
       </div>
+        <div id="subtitle" className="sm:text-sm">
+        <span>by</span>
+      </div>
+        <div id="subtitle" className="sm:text-sm">
+        <span>Samuel Wai Weng Yong</span>
+      </div>
     </div>
     <motion.div
       variants={staggerContainer}
