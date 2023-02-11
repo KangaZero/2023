@@ -40,7 +40,7 @@ const Feedback = () => (
           </p>
         </div>
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] me-text2">
-          I am a Full-Stack Web Developer with expertise in the MERN Stack. I'm a real "data-base" for knowledge, and loving making applications that are simply "MERN-ificent"!
+          I am a Full-Stack Web Developer with expertise in the MERN Stack. I'm a real "data-base" for knowledge, and love making applications that are simply "MERN-ificent"!
         </p>
       </motion.div>
 
