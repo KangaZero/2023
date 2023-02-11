@@ -23,7 +23,7 @@ const Navbar = () => {
       >
         <button
           type="button"
-          className="logo"
+          className="logo custom-hidden"
         >
           <img
             src="/light-mode.png"

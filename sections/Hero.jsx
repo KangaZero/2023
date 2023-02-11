@@ -21,12 +21,16 @@ const Hero = () => (
       <div id="subtitle" className="sm:text-sm">
         <span>2023 </span><span> Project </span><span>Showcase</span>
       </div>
-        <div id="subtitle" className="sm:text-sm">
-        <span>by</span>
-      </div>
-        <div id="subtitle" className="sm:text-sm">
+      <motion.div
+        id="subtext"
+        variants={slideIn('up', 'bounce', 0.8, 1.6)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+      >
+        <span className="pb-4">by</span>
         <span>Samuel Wai Weng Yong</span>
-      </div>
+      </motion.div>
     </div>
     <motion.div
       variants={staggerContainer}
